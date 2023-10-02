@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>colors</title>
+</head>
+
+<body>
+    <div class="container">
+        <label>Red</label>
+        <input id="red" value="0" type="range" min="0" max="255" oninput="colorChange()">
+        <label id="r"></label><br>
+
+        <label>Green</label>
+        <input id="green" value="255" type="range" min="0" max="255" oninput="colorChange()">
+        <label id="g"></label><br>
+
+        <label>Blue</label>
+        <input id="blue" value="0" type="range" min="0" max="255" oninput="colorChange()">
+        <label id="b"></label><br>
+
+        <h1 id="doc">Hello everyone</h1>
+    </div>
+</body>
+
+<script src="script.js"></script>
+
+</html>

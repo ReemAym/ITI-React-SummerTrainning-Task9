@@ -1,0 +1,9 @@
+.container{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 2;
+    border: 2px solid rgb(58, 57, 57);
+    box-shadow: 0 0 13px rgb(69, 69, 69);
+    padding: 30px;
+}

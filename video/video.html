@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+    <style>
+       video {
+    display: flex;
+}
+    </style>
+</head>
+
+<body>
+    <video id="v" src="frozen.mp4" width="500px" height="400px"></video>
+    <input type="button" id="btm-play" value="Play" onclick="playv()">
+    <input type="button" value="Pause" onclick="pausev()">
+    <input id="btn-m" type="button" value="mute" onclick="mutev()">
+    <input type="button" value="<<" onclick="back10()">
+    <input type="button" value=">>" onclick="add10()"><br>
+    <label>Speed</label>
+    <input id="spd-R" type="range" min="0" max="16" value="1" onchange="speed()">
+    <label>vol</label>
+    <input id="vol" type="range" min="0" max="50" value="50" onchange="vol()">
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
